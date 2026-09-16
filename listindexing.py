@@ -6,4 +6,6 @@ for i in range(5):
 #using indexing to access elements in the list
 print(fruits[2])
 print(fruits[4])
+a[-1]= "mango"
+print(fruits)
 
