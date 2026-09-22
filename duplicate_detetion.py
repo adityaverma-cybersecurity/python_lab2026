@@ -8,7 +8,8 @@ for i in range(5):
     a.append(num)
 
 i = 0
-#checking the list for duplicate elements and removing themgit add .
+
+# Checking the list for duplicate elements and removing them
 while i < len(a):
     j = i + 1
 
@@ -21,3 +22,4 @@ while i < len(a):
     i += 1
 
 print("The list is:", a)
+
