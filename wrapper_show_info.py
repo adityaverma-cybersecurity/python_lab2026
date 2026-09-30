@@ -6,10 +6,13 @@ def show_info(func):
     
     return wrapper
 
+num = int(input("Enter a number to square: "))
+
 
 @show_info
-def hello():
-    print("Hello, Python!")
+def  square(num):
+   return num * num
 
 
-hello()
+square(num)
+
